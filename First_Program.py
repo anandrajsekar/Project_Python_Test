@@ -94,12 +94,14 @@ print("**************************************************************");
 
 def is_palindrome(s):
 
-    if s == s[::-1]:
-        return True
-    else:
-        return False
+    S  = s.lower()
 
-s = "level1" 
+    if S == S[::-1]:
+        return "It is a palindrome"
+    else:
+        return "It is not a palindrome"
+
+s = "Madam" 
 print(f"Is the entered string '{s}' a palindrome? {is_palindrome(s)}");
 
 print("**************************************************************");

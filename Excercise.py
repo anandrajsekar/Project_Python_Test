@@ -5,7 +5,7 @@
 
 # Underweight - BMI under or equal to 18.5
 
-# Output : Your Weight (Kg) is : '72', Your Height (m) is : '1.945' and Your BMI is : '18.5'. You are in Underweight
+# Output : Your Weight (Kg) is : '72', Your Height (m) is : '1.975' and Your BMI is : '18.5'. You are in Underweight
 
 # Normal - BMI Between 18.5 and 25 (not included 18.5 but included 25)
 
@@ -23,7 +23,7 @@
 
 Weight = int(input("Emter Your Weight in Kg : "))
 Height = round(float(input("Enter Your Height in Cm : "))/100, 3)
-BMI = round(float(Weight/(Height**2)), 2)
+BMI = round(float(Weight/(Height**2)), 1)
 
 if BMI <= 18.5:
 

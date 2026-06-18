@@ -23,7 +23,7 @@
 
 Weight = int(input("Emter Your Weight in Kg : "))
 Height = round(float(input("Enter Your Height in Cm : "))/100, 3)
-BMI = round(float(Weight/(Height**2)), 1)
+BMI = round(float(Weight/(Height**2)), 2)
 
 if BMI <= 18.5:
 

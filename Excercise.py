@@ -19,7 +19,7 @@
 
 # Output : Your Weight (Kg) is : '72', Your Height (m) is : '1.546' and Your BMI is : '30.1'. You are in Obese
 
-# Output: Your BMI is '{BMI Value}'. You are '{classified}'
+# Output: Your BMI is '{BMI Value}'. You are '{classified}'.
 
 Weight = int(input("Emter Your Weight in Kg : "))
 Height = round(float(input("Enter Your Height in Cm : "))/100, 3)

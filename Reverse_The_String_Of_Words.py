@@ -9,6 +9,6 @@ print(f"\n'{string_of_words}' Reverse Each Word In The String : {" ".join([ stri
 
 Plandrome_Word = []
 for string_of_word in string_of_words.split():
-    if string_of_word[::-1] == string_of_word:
+    if string_of_word[::-1].lower() == string_of_word.lower():
         Plandrome_Word.append(string_of_word)
 print(f"\n'{string_of_words}' Finding The Palindrome Word : {Plandrome_Word}")

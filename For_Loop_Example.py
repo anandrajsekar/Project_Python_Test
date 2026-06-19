@@ -1,3 +1,9 @@
+string_of_words = "Learning a little each day adds up. Research shows that students who make learning a habit are more likely to reach their goals. Set time aside to learn and get reminders using your learning scheduler."
+
+for word in string_of_words.split():
+    if len(word) <=3:
+        print(word)
+
 # Example: One
 
 My_Cars = ['BMW', 'Sokada', 'YBD', 'Maruthi']

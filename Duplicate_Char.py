@@ -28,7 +28,7 @@ for char in Input_Text:
         
         Counts[char] = Counts.get(char, 0) + 1
 
-print(f"\n {Input_Text} Example 3.0 : ", {char: count for char, count in Counts.items() if count > 1})
+print(f"\n {Input_Text} Example 3.0 : ", {char: count for char, count in Counts.items()}) #if count > 1
 
 def duplicate_chars(text):
     

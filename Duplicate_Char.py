@@ -40,4 +40,4 @@ def duplicate_chars(text):
 
     return { char: count for char, count in counts.items() if count > 1}
 
-print(f"\n {Input_Text} Example 3.1 : {duplicate_chars(Input_Text)}")
+print(f"\n {Input_Text} Example 3.1. : {duplicate_chars(Input_Text)}")
